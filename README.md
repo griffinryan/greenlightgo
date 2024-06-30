@@ -16,8 +16,20 @@ Clone the repo and build with [go](https://github.com/golang/go)!
 
     git clone git@github.com:griffinryan/greenlightgo.git
     cd greenlightgo/
-    go get github.com/g3n/engine
+
+---
+
+If you want to install `greenlightgo` just to run it:
+
+    go install
     go run main.go
+
+If you want to install all of the [g3n](http://g3n.rocks) dependencies to continue development of `greenlightgo`:
+
+    go install github.com/g3n/engine/...@latest
+    go run main.go
+
+---
 
 This is just a template of a cute Miata .gltf model as a prototype. Check back for updates!
 
