@@ -26,7 +26,7 @@ If you want to install `greenlightgo` just to run it:
     go install
     go run src/main.go
 
-If you want to install all of the [g3n](http://g3n.rocks) dependencies to continue development of `greenlightgo`:
+If you want to install all of the [go-gl](https://github.com/go-gl/gl) dependencies to continue development of `greenlightgo`:
 
     go get -u github.com/go-gl/...
     go install
