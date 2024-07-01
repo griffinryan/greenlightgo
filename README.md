@@ -2,6 +2,8 @@
 
 [https://griffinryan.com/](https://griffinryan.com/)
 
+![greenlightgo.png](https://torpoisebucket.s3.us-west-2.amazonaws.com/greenlightgo.png)
+
 ## greenlightgo builds using:
 
 - [g3n Golang Game Framework](http://g3n.rocks) - a 3D framework to build Golang game engines
