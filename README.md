@@ -6,11 +6,11 @@
 
 ## greenlightgo builds using:
 
-- [g3n Golang Game Framework](http://g3n.rocks) - a 3D framework to build Golang game engines
+- [go-gl](https://github.com/go-gl/gl) - a 3D framework to use OpenGL bindings in Golang
 
 ### Overview
 
-This project is intended to showcase an understanding of 3D game engine development, such as liner algebra and natural lighting concepts.
+This project is intended to showcase an understanding of 3D game engine development using OpenGL and Golang, such as liner algebra and natural lighting concepts.
 
 #### Get Started
 
@@ -28,7 +28,8 @@ If you want to install `greenlightgo` just to run it:
 
 If you want to install all of the [g3n](http://g3n.rocks) dependencies to continue development of `greenlightgo`:
 
-    go install github.com/g3n/engine/...@latest
+    go get -u github.com/go-gl/...
+    go install
     go run main.go
 
 ---
