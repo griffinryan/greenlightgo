@@ -97,7 +97,7 @@ func main() {
 	}
 
 	// Create and compile the vertex and fragment shaders
-	vertexShaderSource, err := ioutil.ReadFile("vertex_shader.glsl")
+	vertexShaderSource, err := ioutil.ReadFile("shaders/vertex_shader.glsl")
 	if err != nil {
 		log.Fatalln("failed to read vertex shader:", err)
 	}
@@ -106,7 +106,7 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	fragmentShaderSource, err := ioutil.ReadFile("fragment_shader.glsl")
+	fragmentShaderSource, err := ioutil.ReadFile("shaders/fragment_shader.glsl")
 	if err != nil {
 		log.Fatalln("failed to read fragment shader:", err)
 	}
